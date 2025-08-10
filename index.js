@@ -151,6 +151,7 @@ function fillTable() {
           ["Day 52", "E-Commerce_UI", "public/Day52_E-Commerce_UI/index.html"],
           ["Day 53", "Word Guess Game"," public/Day53-Word-Guess-Game/index.html"],
           ["Day 57", "4 in a Row", "public/Day-57_4_in_a_row/index.html"],
+          ["Day 67", "Maze Solver", "public/Day-67_MazeSolver/index.html"],
     ];
 
     const tbody = document.getElementById('tableBody');
