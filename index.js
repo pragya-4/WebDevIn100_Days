@@ -98,7 +98,6 @@ function updateNavbar() {
 }
 
 // Populate the table with project data
- main
 function fillTable() {
     const data = [
         ["Day 1", "To-Do List", "/public/Day-1_TodoList/index.html"],
@@ -130,7 +129,6 @@ function fillTable() {
         ["Day 28", "Target Reflex Test", "public/Day-28_Target_Reflex_Test/index.html"],
         ["Day 29", "Snake And Ladder Game", "public/Snake-and-Ladder-Game/index.html"],
         ["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"],
-
         ["Day 31", "👾Alien Hunt", "public/Day-31/index.html"],
         ["Day 32","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ],
         ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
@@ -152,7 +150,7 @@ function fillTable() {
           ["Day 52", "E-Commerce_UI", "public/Day52_E-Commerce_UI/index.html"],
           ["Day 53", "Word Guess Game"," public/Day53-Word-Guess-Game/index.html"],
           ["Day 57", "4 in a Row", "public/Day-57_4_in_a_row/index.html"],
-          ["Day 81", "Maze Solver", "public/Day-81_MazeSolver/index.html"],
+          ["Day 81", "Maze Solver", "./public/Day-81_MazeSolver/index.html"],
     ];
 }
 //function fillTable() {
@@ -219,10 +217,6 @@ function fillTable() {
 
   
 // See in Script Folder in app.js (where you can add your poject)];
-
-
-
- main
 
     const tbody = document.getElementById('tableBody');
     tbody.innerHTML = '';
